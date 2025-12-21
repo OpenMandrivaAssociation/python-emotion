@@ -20,6 +20,11 @@ License:	GPLv2
 URL:		https://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(emotion)
 BuildRequires:	pkgconfig(python-evas)
